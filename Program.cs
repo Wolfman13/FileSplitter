@@ -19,7 +19,7 @@ class Program
         {
             List<string> list = new List<string>();
 
-            Console.WriteLine("Reading to list.txt");
+            Console.WriteLine("Reading to list");
 
             using (StreamReader reader = new StreamReader(inputFile))
             {
